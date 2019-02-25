@@ -1,10 +1,11 @@
 for n in range(2000,3000):
-    i=n 
+    i=n
     for j in range(1,5):
-        if  n%2==0:
-            n=n//10
-        elif j==4:
-            print(i)
+        if i%2==0:
+            i=i//10
+            if j==4:
+                print(n)
+            
         else:
-            break
+            continue
         
